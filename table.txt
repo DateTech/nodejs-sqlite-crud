@@ -1,0 +1,8 @@
+CREATE TABLE record (
+   id INTEGER PRIMARY KEY AUTOINCREMENT,
+   name TEXT NOT NULL,
+   no INTEGER NOT NULL,
+   height TEXT NOT NULL,
+   position TEXT NOT NULL,
+   point INTEGER NOT NULL
+);

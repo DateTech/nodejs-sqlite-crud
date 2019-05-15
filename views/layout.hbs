@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="/css/Footer-Basic.css">
+    <link rel="stylesheet" href="/css/Responsive-Form.css">
+    <link rel="stylesheet" href="/css/Responsive-Form1.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top justify-content-between ml-auto" style="background-color:rgba(47,143,213,0.84);font-size:12px;">
+        <div class="container"><a class="navbar-brand" href="#"><i class="icon ion-ios-basketball"></i></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav" style="font-size:6px;">
+                    <li class="nav-item" role="presentation" id="Home" style="font-size:4px;"><a class="nav-link" href="index.html">HOME&nbsp;</a></li>
+                    <li class="dropdown show" id="Player"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#">Player Details</a>
+                        <div class="dropdown-menu show" role="menu" style="background-color:rgb(241,162,77);font-family:Allerta, sans-serif;font-size:18px;color:rgb(178,124,77);"><a class="dropdown-item" role="presentation" href="PlayerDetails/ViewPage.html">View&nbsp;</a><a class="dropdown-item" role="presentation" href="PlayerDetails/Insert.html">Insert &nbsp;</a><a class="dropdown-item" role="presentation"
+                                href="#">Update&nbsp;</a><a class="dropdown-item" role="presentation" href="#">Delete&nbsp;</a></div>
+                    </li>
+                    <li class="nav-item" role="presentation" id="Tournament"><a class="nav-link" href="#tournament">Tournament Table</a></li>
+                    <li class="nav-item" role="presentation" id="fixtures"><a class="nav-link" href="#fixtures.html">Fixtures/Results</a></li>
+                    <li class="nav-item" role="presentation" id="MatchLine"><a class="nav-link" href="#MatchDay">Matchday Line-ups</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div data-bs-parallax-bg="true" style="height:150px;background-image:url(&quot;../assets/img/netball.jpg&quot;);background-position:center;background-size:cover;"></div>
+    {{{body}}}
+    <div class="footer-basic" style="background-color:rgb(146,254,51);">
+        <footer style="background-color:#92fe33;">
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2017</p>
+        </footer>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/bs-animation.js"></script>
+</body>
+
+</html>

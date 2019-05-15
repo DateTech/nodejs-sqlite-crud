@@ -1,0 +1,43 @@
+<div class="container">
+        <div>
+            <form method="POST" action="/add">
+                <div class="form-group">
+                    <div id="formdiv">
+                        <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Player Name</strong></p>
+                            </div>
+                            <div class="col-md-10 offset-md-1"><input class="form-control" type="text" name="name" placeholder="Name" style="margin-left:0px;font-family:Roboto, sans-serif;"></div>
+                        </div>
+                        <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;margin-top:-16px;">
+                            <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Number of Appearances</strong></p>
+                            </div>
+                            <div class="col-md-10 offset-md-1"><input class="form-control" type="number" name="no" value="0" readonly="" placeholder="Number"></div>
+                        </div>
+                        <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Height (feet)</strong></p>
+                            </div>
+                            <div class="col-5 col-md-10 offset-md-1"><select class="form-control" name="height" style="font-family:Roboto, sans-serif;"><optgroup label="Choose height"><option value=""></option><option value="5&quot;0">5"0</option><option value="5&quot;1">5"1</option><option value="5&quot;2">5"2</option><option value="5&quot;3">5"3</option><option value="5&quot;4">5"4</option><option value="5&quot;5">5"5</option><option value="5&quot;6">5"6</option><option value="5&quot;7">5"7</option><option value="5&quot;8">5"8</option><option value="5&quot;9">5"9</option><option value="5&quot;10">5"10</option><option value="5&quot;11">5"11</option><option value="6&quot;0">6"0</option><option value="6&quot;1">6"1</option><option value="6&quot;2">6"2</option><option value="6&quot;3">6"3</option></optgroup></select></div>
+                        </div>
+                        <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Position</strong></p>
+                            </div>
+                            <div class="col-md-10 offset-md-1" style="font-family:Roboto, sans-serif;"><select class="form-control" name="position" style="font-family:Roboto, sans-serif;"><optgroup label="Choose Position"><option value=""></option><option value="Goal Shooter">Goal Shooter</option><option value="Goal Attack">Goal Attack</option><option value=" Centre"> Centre</option><option value="Goal Defence">Goal Defence</option><option value="Goal Keeper">Goal Keeper</option></optgroup></select></div>
+                        </div>
+                        <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-md-8 offset-md-1">
+                                <p style="margin-left:2%;font-family:Roboto, sans-serif;font-size:24px;"><strong>Point scored</strong></p>
+                            </div>
+                            <div class="col-md-10 offset-md-1"><input class="form-control" type="number" name="point" value="0" readonly="" placeholder="Points(0)" min="0" max="0"></div>
+                        </div>
+                        <div class="form-row" style="margin-right:0px;margin-left:0px;padding-top:24px;">
+                            <div class="col-12 col-md-4 offset-md-4"><button class="btn btn-light btn-lg" type="reset" style="font-family:Roboto, sans-serif;">Clear </button><button class="btn btn-light btn-lg" type="submit" style="margin-left:16px;">Submit </button></div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
